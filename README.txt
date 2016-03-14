@@ -1,3 +1,8 @@
+= Why is this forked?
+This gem was forked because of CVE-2013-0162, which exists in ruby_parser 3.1.1
+and below. `ruote` requires `ruby_parser ~> 2.3` and upgrading to 3.8 causes tests
+to fail.
+
 = ruby_parser
 
 home :: https://github.com/seattlerb/ruby_parser
